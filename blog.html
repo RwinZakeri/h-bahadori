@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+  , initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>blog</title>
+  </head>
+  <body>
+    <div class="root">
+      <header class="w-full max-w-[1920px] bg-transparent fixed top-0 z-10">
+        <nav
+          class="w-full *:top-0 flex items-center justify-between p-3 md:px-6 lg:px-12"
+        >
+          <div>
+            <a href="#">
+              <img src="../../public/images/logo.png" alt="burger" />
+            </a>
+          </div>
+          <div class="hidden md:block">
+            <ul class="flex items-center justify-between gap-0 text-lg">
+              <li><a class="liItem" href="./index.html">صفحه اصلی</a></li>
+              <li><a class="liItem" href="#">پروژه ها</a></li>
+              <li><a class="liItem activeLiItem" href="#">بلاگ</a></li>
+              <li><a class="liItem" href="./about.html">درباره ما</a></li>
+              <li><a class="liItem" href="#">تماس با ما</a></li>
+            </ul>
+          </div>
+          <div class="hidden md:flex items-center gap-2">
+            <img src="../../public/icon/phoneico.png" alt="call us" />
+            <a class="hover:text-gold300 transition-all" href="tel:02112345678"
+              >021-12345678</a
+            >
+          </div>
+          <!-- desktop nav -->
+          <!-- mobile nav  -->
+          <div class="flex items-center justify-between md:hidden">
+            <label for="sidebar">
+              <img src="../../public/icon/burgurMenue.png" alt="burger" />
+            </label>
+            <input type="radio" name="" class="hidden" id="sidebar" />
+            <!-- side bar -->
+            <div
+              class="absolute -left-[200%] top-0 w-4/5 h-screen bg-blue-400 transition-all duration-500"
+            ></div>
+          </div>
+        </nav>
+      </header>
+      <!-- seprator -->
+      <div class="w-full h-20"></div>
+      <!-- main -->
+
+      <div class="text-center">
+        <div class="w-full pb-8">
+          <h3 class="text-gold500 text-sm md:text-xl">مجله</h3>
+          <h3 class="text-mainWhite text-lg afterGolden py-3 pb-4 md:text-3xl">
+            وبلاگ
+          </h3>
+          <p class="md:text-xl pb-4">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
+        </div>
+        <div
+          class="w-full lg:w-4/5 mx-auto grid grid-cols-[1fr] md:grid-cols-[70%_30%]"
+        >
+          <!-- <div class="flex flex-col md:flex-row gap-3 flex-wrap"> -->
+          <div class="w-full grid gap-2 grid-cols-[1fr] md:grid-cols-2">
+            <div class="w-full p-6 shrink-0 bg-cartBlk rounded-md">
+              <img
+                src="../../public/images/bannerDesktop.png"
+                class="rounded-md h-80"
+                alt=""
+              />
+              <p class="text-gold500 text-right py-2">طراحی</p>
+              <div class="w-full flex items-center justify-between">
+                <h2 class="text-xl pb-3">لورم ایپسوم</h2>
+                <img src="../../public/icon/Iconwrap.png" alt="" />
+              </div>
+              <p class="text-right text-base font-[200] py-3">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+
+              <div class="w-full pt-2 flex gap-2 text-sm">
+                <div class="rounded-full">
+                  <img
+                    src="./public/images/Avatar.png"
+                    class="w-10 h-10 rounded-full"
+                    alt=""
+                  />
+                </div>
+                <div class="text-right">
+                  <h3>هانیه صادقی</h3>
+                  <p>20 فروردین 1402</p>
+                </div>
+              </div>
+            </div>
+            <!-- cart 2 -->
+            <div class="w-full p-6 shrink-0 bg-cartBlk rounded-md">
+              <img
+                src="../../public/images/bannerDesktop.png"
+                class="rounded-md h-80"
+                alt=""
+              />
+              <p class="text-gold500 text-right py-2">طراحی</p>
+              <div class="w-full flex items-center justify-between">
+                <h2 class="text-xl pb-3">لورم ایپسوم</h2>
+                <img src="../../public/icon/Iconwrap.png" alt="" />
+              </div>
+              <p class="text-right text-base font-[200] py-3">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+
+              <div class="w-full pt-2 flex gap-2 text-sm">
+                <div class="rounded-full">
+                  <img
+                    src="./public/images/Avatar.png"
+                    class="w-10 h-10 rounded-full"
+                    alt=""
+                  />
+                </div>
+                <div class="text-right">
+                  <h3>هانیه صادقی</h3>
+                  <p>20 فروردین 1402</p>
+                </div>
+              </div>
+            </div>
+            <!-- cart 3 -->
+            <div class="w-full p-6 shrink-0 bg-cartBlk rounded-md">
+              <img
+                src="../../public/images/bannerDesktop.png"
+                class="rounded-md h-80"
+                alt=""
+              />
+              <p class="text-gold500 text-right py-2">طراحی</p>
+              <div class="w-full flex items-center justify-between">
+                <h2 class="text-xl pb-3">لورم ایپسوم</h2>
+                <img src="../../public/icon/Iconwrap.png" alt="" />
+              </div>
+              <p class="text-right text-base font-[200] py-3">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+
+              <div class="w-full pt-2 flex gap-2 text-sm">
+                <div class="rounded-full">
+                  <img
+                    src="./public/images/Avatar.png"
+                    class="w-10 h-10 rounded-full"
+                    alt=""
+                  />
+                </div>
+                <div class="text-right">
+                  <h3>هانیه صادقی</h3>
+                  <p>20 فروردین 1402</p>
+                </div>
+              </div>
+            </div>
+            <!-- cart 3 -->
+            <div class="w-full p-6 shrink-0 bg-cartBlk rounded-md">
+              <img
+                src="../../public/images/bannerDesktop.png"
+                class="rounded-md h-80"
+                alt=""
+              />
+              <p class="text-gold500 text-right py-2">طراحی</p>
+              <div class="w-full flex items-center justify-between">
+                <h2 class="text-xl pb-3">لورم ایپسوم</h2>
+                <img src="../../public/icon/Iconwrap.png" alt="" />
+              </div>
+              <p class="text-right text-base font-[200] py-3">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+
+              <div class="w-full pt-2 flex gap-2 text-sm">
+                <div class="rounded-full">
+                  <img
+                    src="./public/images/Avatar.png"
+                    class="w-10 h-10 rounded-full"
+                    alt=""
+                  />
+                </div>
+                <div class="text-right">
+                  <h3>هانیه صادقی</h3>
+                  <p>20 فروردین 1402</p>
+                </div>
+              </div>
+            </div>
+            <!-- cart 4 -->
+            <div class="w-full p-6 shrink-0 bg-cartBlk rounded-md">
+              <img
+                src="../../public/images/bannerDesktop.png"
+                class="rounded-md h-80"
+                alt=""
+              />
+              <p class="text-gold500 text-right py-2">طراحی</p>
+              <div class="w-full flex items-center justify-between">
+                <h2 class="text-xl pb-3">لورم ایپسوم</h2>
+                <img src="../../public/icon/Iconwrap.png" alt="" />
+              </div>
+              <p class="text-right text-base font-[200] py-3">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+
+              <div class="w-full pt-2 flex gap-2 text-sm">
+                <div class="rounded-full">
+                  <img
+                    src="./public/images/Avatar.png"
+                    class="w-10 h-10 rounded-full"
+                    alt=""
+                  />
+                </div>
+                <div class="text-right">
+                  <h3>هانیه صادقی</h3>
+                  <p>20 فروردین 1402</p>
+                </div>
+              </div>
+            </div>
+            <!-- cart 5 -->
+            <div class="w-full p-6 shrink-0 bg-cartBlk rounded-md">
+              <img
+                src="../../public/images/bannerDesktop.png"
+                class="rounded-md h-80"
+                alt=""
+              />
+              <p class="text-gold500 text-right py-2">طراحی</p>
+              <div class="w-full flex items-center justify-between">
+                <h2 class="text-xl pb-3">لورم ایپسوم</h2>
+                <img src="../../public/icon/Iconwrap.png" alt="" />
+              </div>
+              <p class="text-right text-base font-[200] py-3">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+
+              <div class="w-full pt-2 flex gap-2 text-sm">
+                <div class="rounded-full">
+                  <img
+                    src="./public/images/Avatar.png"
+                    class="w-10 h-10 rounded-full"
+                    alt=""
+                  />
+                </div>
+                <div class="text-right">
+                  <h3>هانیه صادقی</h3>
+                  <p>20 فروردین 1402</p>
+                </div>
+              </div>
+            </div>
+            <!-- cart 6 -->
+            <div class="w-full p-6 shrink-0 bg-cartBlk rounded-md">
+              <img
+                src="../../public/images/bannerDesktop.png"
+                class="rounded-md h-80"
+                alt=""
+              />
+              <p class="text-gold500 text-right py-2">طراحی</p>
+              <div class="w-full flex items-center justify-between">
+                <h2 class="text-xl pb-3">لورم ایپسوم</h2>
+                <img src="../../public/icon/Iconwrap.png" alt="" />
+              </div>
+              <p class="text-right text-base font-[200] py-3">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+
+              <div class="w-full pt-2 flex gap-2 text-sm">
+                <div class="rounded-full">
+                  <img
+                    src="./public/images/Avatar.png"
+                    class="w-10 h-10 rounded-full"
+                    alt=""
+                  />
+                </div>
+                <div class="text-right">
+                  <h3>هانیه صادقی</h3>
+                  <p>20 فروردین 1402</p>
+                </div>
+              </div>
+            </div>
+            <!-- cart 7 -->
+            <div class="w-full p-6 shrink-0 bg-cartBlk rounded-md">
+              <img
+                src="../../public/images/bannerDesktop.png"
+                class="rounded-md h-80"
+                alt=""
+              />
+              <p class="text-gold500 text-right py-2">طراحی</p>
+              <div class="w-full flex items-center justify-between">
+                <h2 class="text-xl pb-3">لورم ایپسوم</h2>
+                <img src="../../public/icon/Iconwrap.png" alt="" />
+              </div>
+              <p class="text-right text-base font-[200] py-3">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+
+              <div class="w-full pt-2 flex gap-2 text-sm">
+                <div class="rounded-full">
+                  <img
+                    src="./public/images/Avatar.png"
+                    class="w-10 h-10 rounded-full"
+                    alt=""
+                  />
+                </div>
+                <div class="text-right">
+                  <h3>هانیه صادقی</h3>
+                  <p>20 فروردین 1402</p>
+                </div>
+              </div>
+            </div>
+            <!-- cart 9 -->
+            <div class="w-full p-6 shrink-0 bg-cartBlk rounded-md">
+              <img
+                src="../../public/images/bannerDesktop.png"
+                class="rounded-md h-80"
+                alt=""
+              />
+              <p class="text-gold500 text-right py-2">طراحی</p>
+              <div class="w-full flex items-center justify-between">
+                <h2 class="text-xl pb-3">لورم ایپسوم</h2>
+                <img src="../../public/icon/Iconwrap.png" alt="" />
+              </div>
+              <p class="text-right text-base font-[200] py-3">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+
+              <div class="w-full pt-2 flex gap-2 text-sm">
+                <div class="rounded-full">
+                  <img
+                    src="./public/images/Avatar.png"
+                    class="w-10 h-10 rounded-full"
+                    alt=""
+                  />
+                </div>
+                <div class="text-right">
+                  <h3>هانیه صادقی</h3>
+                  <p>20 فروردین 1402</p>
+                </div>
+              </div>
+            </div>
+            <!-- cart 10 -->
+            <div class="w-full p-6 shrink-0 bg-cartBlk rounded-md">
+              <img
+                src="../../public/images/bannerDesktop.png"
+                class="rounded-md h-80"
+                alt=""
+              />
+              <p class="text-gold500 text-right py-2">طراحی</p>
+              <div class="w-full flex items-center justify-between">
+                <h2 class="text-xl pb-3">لورم ایپسوم</h2>
+                <img src="../../public/icon/Iconwrap.png" alt="" />
+              </div>
+              <p class="text-right text-base font-[200] py-3">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+
+              <div class="w-full pt-2 flex gap-2 text-sm">
+                <div class="rounded-full">
+                  <img
+                    src="./public/images/Avatar.png"
+                    class="w-10 h-10 rounded-full"
+                    alt=""
+                  />
+                </div>
+                <div class="text-right">
+                  <h3>هانیه صادقی</h3>
+                  <p>20 فروردین 1402</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- side bar -->
+          <div class="w-full h-full hidden md:block mr-4 relative">
+            <div class="w-full xl:w-3/4 mx-auto sticky top-12">
+              <div
+                class="w-full px-2 mx-auto rounded-md py-0.5 text-mainWhite flex items-center gap-1 bg-cartBlk"
+              >
+                <img src="./public/icon/search-lg.png" class="w-5 h-5" alt="" />
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="w-full rounded-md bg-inherit h-9 border-none focus:border-none outline-none"
+                  placeholder="جستجو کنید"
+                />
+              </div>
+              <div class="text-right">
+                <h3 class="py-6 text-gold500">جدیدترین مطالب وبلاگ</h3>
+                <ul class="w-full">
+                  <li class="blogItem blogItemActive">فناوری</li>
+                  <li class="blogItem">آموزش</li>
+                  <li class="blogItem">مدیریت زمان</li>
+                  <li class="blogItem">توسعه فردی</li>
+                  <li class="blogItem">محتوای ویژه</li>
+                  <li class="blogItem">طراحی وب</li>
+                  <li class="blogItem">معرفی کتاب</li>
+                  <li class="blogItem">تکنیک و ترفند</li>
+                  <li class="blogItem">معرفی منابع مفید</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="w-full mt-8 px-4 space-y-4 bg-cartBlk py-16">
+      <div class="flex flex-col gap-4 md:flex-row justify-evenly md:px-8 px-4">
+        <div class="w-full">
+          <h3 class="text-gold500 text-right text-xl my-2">اطلاعات تماس</h3>
+          <div class="flex items-center gap-2">
+            <img src="../../public/icon/phoneico.png" alt="call us" />
+            <a
+              class="hover:text-gold300 transition-all text-lg mt-3"
+              href="tel:02112345678"
+              >021-12345678</a
+            >
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="../../public/icon/email.png" alt="call us" />
+            <a
+              class="hover:text-gold300 transition-all text-lg mt-3"
+              href="mailto:yahoo@yourweb.com"
+              >yahoo@yourweb.com</a
+            >
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="../../public/icon/locationico.png" alt="call us" />
+            <a
+              class="hover:text-gold300 transition-all text-base mt-3"
+              href="mailto:yahoo@yourweb.com"
+              >یزد، خیابان کاشانی، نبش کوچه رهبران</a
+            >
+          </div>
+        </div>
+        <div class="w-full text-right space-y-3">
+          <h3 class="text-xl font-bold text-gold500">لینک های مفید</h3>
+          <p class="text-lg"><a href="#"> درباره ما</a></p>
+          <p class="text-lg"><a href="#">تماس با ما</a></p>
+          <p class="text-lg"><a href="#">وبلاگ</a></p>
+        </div>
+        <div class="w-full mx-auto">
+          <h3 class="text-xl text-right text-gold500 mb-2">خبرنامه</h3>
+          <div class="flex items-center justify-between gap-2">
+            <input
+              type="text"
+              name=""
+              id=""
+              class="w-full border-[1px] h-12 rounded-lg border-solid bg-mainBlk text-mainWhite border-white px-2"
+              placeholder="example@gmail.com"
+            />
+            <input
+              type="submit"
+              class="py-3 px-4 bg-gold500 rounded-lg text-white"
+              value="عضویت"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="w-full">
+        <hr class="mt-4 h-[1px] bg-gold500" />
+        <div
+          class="mt-4 md:flex items-center justify-center px-8 md:justify-between"
+        >
+          <p>© تمامی حقوق این وبسایت محفوظ است. 1402</p>
+          <div class="flex items-center justify-center gap-2">
+            <a href="#">
+              <img class="w-5" src="../../public/icon/twitter.png" alt="" />
+            </a>
+            <a href="#">
+              <img class="w-5" src="../../public/icon/linkdin.png" alt="" />
+            </a>
+            <a href="#">
+              <img class="w-5" src="../../public/icon/faceico.png" alt="" />
+            </a>
+            <a href="#">
+              <img class="w-5" src="../../public/icon/github.png" alt="" />
+            </a>
+            <a href="#">
+              <img class="w-5" src="../../public/icon/rabbit.png" alt="" />
+            </a>
+            <a href="#">
+              <img class="w-5" src="../../public/icon/ball.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
